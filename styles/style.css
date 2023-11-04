@@ -131,3 +131,63 @@ body{
 .hero__title button:hover{
     background: linear-gradient(90deg, #058a57 0%, #09975e 96.96%);
 }
+
+/* list__desc start */
+.list_commodity{
+    border-radius: 16px;
+    background:  #FFF;
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 54px;
+}
+.list_desc-quest h3{
+    color:  #1F2428;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    width: 477px;
+    margin-bottom: 40px;
+}
+.listt__desc-commodity{
+    color: #1F2428;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.listt__desc-commodity{
+    padding: 25px 28px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    cursor: pointer;
+}
+.listt__desc-commodity:hover{
+    background-color: #F2F6FC;
+}
+/* .previous-vector,.forward-vector{
+    padding: 50px 18px 50px 27px;
+} */
+
+/* price clothes */
+.price__clothes{
+    display: flex;
+    justify-content: space-between;
+}
+.t-shirt-daisy p{
+    color:  #1F2428;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 44px;
+    width: 400px;
+}
+.flag__russia{
+    border-radius: 16px;
+    background: #F2F6FC;
+    padding: 33px 34px;
+    display: flex;
+    gap: 28px;
+}
