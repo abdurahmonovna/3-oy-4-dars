@@ -9,7 +9,7 @@ body{
 }
 .container-min{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 .container-max{
@@ -175,8 +175,12 @@ body{
 .price__clothes{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 162px;
 }
-.t-shirt-daisy p{
+.t-shirt-daisy{
+    margin-top:80px;
+}
+.t-shirt-daisy .t-shirt_text{
     color:  #1F2428;
     font-size: 26px;
     font-weight: 700;
@@ -190,4 +194,194 @@ body{
     padding: 33px 34px;
     display: flex;
     gap: 28px;
+    align-items: center;
+    margin-bottom: 157px;
+}
+.price__russia p{
+    color:  #1F2428;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-bottom: 8px;
+}
+.price__russia h5{
+    color:  #1F2428;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.instruction-vector{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.instruction-vector_active{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.jacket__blue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jacket__blue img{
+    margin-bottom: 40px;
+}
+.jacket__blue p{
+    color: #1F2428;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+.jacket__blue h5{
+    color:#1F2428;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px; 
+}
+.jacket__blue h5 span{
+    color: #01CD7D;
+}
+
+/* recommendation__list start */
+.recommendation__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0 27px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    width: 1400px;
+    margin-bottom: 160px;
+}
+.recommendation__list .economica{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #C0C9D7;
+    padding: 35px 67px 40px 74px;
+}
+.recommendation__list .economica:last-child{
+    border: none;
+}
+.recommendation__list .economica h4{
+    color: #1F2428;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.shopping-dollor{
+    display: flex;
+    gap: 77px;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+}
+.shoping_title h3{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px; 
+    width: 763px;  
+    margin-bottom: 11px;                         
+}
+.shoping_title p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.shoping_title a{
+    width: 240px;
+    padding: 24px 50px 22px;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+
+    color:#FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 18px; 
+    text-decoration: none;
+}
+.okey-post__title h3{
+    margin-bottom: 20px;
+    margin-top: 160px;
+    color: #1F2428;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 56px;
+    width: 824px;
+}
+.okey-post__title p{
+    margin-bottom: 50px;
+    color: #1F2428;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    width: 760px;
+}
+
+/* regis start */
+.regis{
+    border-radius: 16px;
+    background:  #FFF;
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    padding: 46px 35px 51px;
+}
+.regis__list-item{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.strana{
+    width: 246px;
+}
+.strana h4{
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px; 
+    margin-bottom: 20px;
+}
+.strana .rossia_regist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+}
+.rossia_regist .left-rossia_regist{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.rossia_regist .left-rossia_regist h5{
+    color:  #222;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px; 
+}
+.regis button{
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    padding: 22px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 18px;
+    width: 240px;
+    border: none;
 }
