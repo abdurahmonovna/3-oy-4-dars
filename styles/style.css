@@ -337,6 +337,7 @@ body{
     background:  #FFF;
     box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
     padding: 46px 35px 51px;
+    margin-bottom: 80px;
 }
 .regis__list-item{
     display: flex;
@@ -385,3 +386,38 @@ body{
     width: 240px;
     border: none;
 }
+.variant-dostavka__title h3{
+    color:  #1F2428;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+.variant-dostavki__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.pochta{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 29px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+.left-pochta__item{
+    display: flex;
+    gap: 27px;
+    align-items: center
+}
+.right-pochta_item{
+    display: flex;
+    align-items: center;
+}
+.right-pochta_item .stroki{
+    padding: 0 50px;
+    border-left: 1px solid #C0C9D7;
+}
+/* oxirgi block tugatilmadi */
